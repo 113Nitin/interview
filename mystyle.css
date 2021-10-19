@@ -1,0 +1,158 @@
+
+body
+{
+  font-family: Montserrat;
+  margin: 0px;
+}
+
+  /* first section */
+.title
+{
+  background-image: linear-gradient(rgb(0 , 0 , 0, 0.527), rgb(0,0,0,0.5)), url("img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position : center center ;
+  height: 800px;  
+}
+a {
+  white-space: nowrap;
+}
+
+
+.navbar
+{
+  font-family: 'Montserrat', sans-serif;
+}
+.nevigation{
+  padding: 2rem 2.5rem;
+  
+}
+
+.row
+{
+  padding-top:5%;
+  margin-bottom:5%;
+}
+.brand
+{
+  font-size:2em;
+  font-family:ubuntu;
+  font-weight:bold;
+}
+
+.mybar
+{
+  margin-left:auto;
+}
+
+.nav-item
+{                                                  
+  padding:0 0.5rem;
+  
+}
+.nav-link
+{
+ 
+  font-size:1rem;
+}
+.main-heading
+{
+  text-align: center;
+    margin-top: 150px;
+    font-family: 'Montserrat', sans-serif;
+    
+    line-height:1.5;
+    color:white;
+  
+}
+.short-intro
+{
+  font-size: 30px;
+}
+.quote-button{
+ margin : 30px;
+ background-color:#F78812 !important;
+ padding: 20px 30px;
+ color: white;
+}
+
+
+@media (max-width: 700px){
+  .brand
+  {
+  font-size:1em;
+  font-family:ubuntu;
+  font-weight:bold;
+  margin-bottom: 20px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  .main-heading{
+    margin-top: 100px;
+  }
+  .quote-button{
+    margin : 35px;
+    font-size: 10px;
+    padding: 10px 15px;
+
+    
+   }
+}   /* end first section*/
+
+.services{
+  padding: 0;
+  margin: 0px;
+  
+}
+
+.box{
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  
+  text-align: center;
+  height: 400px;
+  
+}
+#mobile-app{
+  background-image: url("img/solution-preview-small-1.jpg");
+ 
+}
+#e-commerce{
+  background-image: url("img/solution-preview-small-ecommerce-development_0.jpg");
+ 
+}
+#big-data{
+  background-image: url("img/solution-preview-small-3.jpg");
+ 
+}
+#image-analysis{
+  background-image: url("img/solution-preview-small-image-analysis-red.jpg");
+ 
+}
+#media-content{
+  background-image: url("img/solution-preview-small-4.jpg");
+ 
+}
+#eleaning-development{
+  background-image: url("img/solution-preview-small-5_1.jpg");
+
+}
+#document-management{
+  background-image: url("img/solution-preview-small-6.jpg");
+  
+}
+#social-networiking{
+  background-image: url("img/solution-preview-small-8_1.jpg");
+  
+}
+.content{
+  margin-top: 140px;
+  font-size: 30px;
+}
+                                                                                                                                                 
+
